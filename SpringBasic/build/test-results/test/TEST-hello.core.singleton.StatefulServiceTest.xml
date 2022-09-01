@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.singleton.StatefulServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-26T07:01:29" hostname="jeong-gyeongsuui-MacBookPro.local" time="0.007">
+  <properties/>
+  <testcase name="statefulServiceSingleton()" classname="hello.core.singleton.StatefulServiceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

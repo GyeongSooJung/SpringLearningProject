@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextBasicfindTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-08-26T07:01:28" hostname="jeong-gyeongsuui-MacBookPro.local" time="0.037">
+  <properties/>
+  <testcase name="빈 이름으로 조회x" classname="hello.core.beanfind.ApplicationContextBasicfindTest" time="0.003"/>
+  <testcase name="구체 타입으로 조회" classname="hello.core.beanfind.ApplicationContextBasicfindTest" time="0.003"/>
+  <testcase name="빈 이름으로 조회" classname="hello.core.beanfind.ApplicationContextBasicfindTest" time="0.001"/>
+  <testcase name="이름 없이 타입으로 조회" classname="hello.core.beanfind.ApplicationContextBasicfindTest" time="0.001"/>
+  <system-out><![CDATA[call AppConfig.memberService
+call AppConfig.memberRepository
+call AppConfig.orderService
+call AppConfig.memberService
+call AppConfig.memberRepository
+call AppConfig.orderService
+call AppConfig.memberService
+call AppConfig.memberRepository
+call AppConfig.orderService
+call AppConfig.memberService
+call AppConfig.memberRepository
+call AppConfig.orderService
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
