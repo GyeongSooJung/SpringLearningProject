@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 public class Item {
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO) @Column(name = "item_index")
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "item_name", length = 10)

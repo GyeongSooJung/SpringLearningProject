@@ -41,9 +41,9 @@ class ItemRepositoryTest {
     @AfterEach
     void afterEach() {
         //MemoryItemRepository 의 경우 제한적으로 사용
-        if (itemRepository instanceof MemoryItemRepository) {
-            ((MemoryItemRepository) itemRepository).clearStore();
-        }
+//        if (itemRepository instanceof MemoryItemRepository) {
+//            ((MemoryItemRepository) itemRepository).clearStore();
+//        }
         //트랜잭션 롤백
         //transactionManager.rollback(status);
     }
@@ -109,6 +109,8 @@ class ItemRepositoryTest {
 
     void test(String itemName, Integer maxPrice, Item... items) {
         List<Item> result = itemRepository.findAll(new ItemSearchCond(itemName, maxPrice));
+        log.info("result={}", result);
+        log.info("items={}", items);
         assertThat(result).containsExactly(items);
     }
 }
