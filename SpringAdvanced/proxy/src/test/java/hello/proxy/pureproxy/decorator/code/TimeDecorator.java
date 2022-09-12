@@ -11,9 +11,11 @@ public class TimeDecorator implements Component {
         this.component = component;
     }
 
+
+
     @Override
     public String operation() {
-        log.info("TimeDecorator 실행");
+        log.info("TimeDecorator 실행 ");
         long startTime = System.currentTimeMillis();
 
         String result = component.operation();

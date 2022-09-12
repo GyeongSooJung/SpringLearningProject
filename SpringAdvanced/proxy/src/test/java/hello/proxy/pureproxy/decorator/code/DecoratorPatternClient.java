@@ -15,4 +15,5 @@ public class DecoratorPatternClient {
         String result = component.operation();
         log.info("result={}", result);
     }
+
 }

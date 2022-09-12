@@ -13,7 +13,6 @@ public class OrderControllerInterfaceProxy implements OrderControllerV1 {
 
     @Override
     public String request(String itemId) {
-
         TraceStatus status = null;
         try {
             status = logTrace.begin("OrderController.request()");
@@ -22,13 +21,13 @@ public class OrderControllerInterfaceProxy implements OrderControllerV1 {
             logTrace.end(status);
             return result;
         } catch (Exception e) {
-            logTrace.exception(status, e);
+            logTrace.exception(status,e);
             throw e;
         }
     }
 
     @Override
     public String noLog() {
-        return target.noLog();
+        return null;
     }
 }

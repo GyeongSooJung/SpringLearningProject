@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class ProxyPatternTest {
 
     @Test
-    void noProxyTest() {
+    void noProxyText() {
         RealSubject realSubject = new RealSubject();
         ProxyPatternClient client = new ProxyPatternClient(realSubject);
         client.execute();

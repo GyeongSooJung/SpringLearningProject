@@ -13,7 +13,6 @@ public class OrderRepositoryInterfaceProxy implements OrderRepositoryV1 {
 
     @Override
     public void save(String itemId) {
-
         TraceStatus status = null;
         try {
             status = logTrace.begin("OrderRepository.request()");
@@ -21,7 +20,7 @@ public class OrderRepositoryInterfaceProxy implements OrderRepositoryV1 {
             target.save(itemId);
             logTrace.end(status);
         } catch (Exception e) {
-            logTrace.exception(status, e);
+            logTrace.exception(status,e);
             throw e;
         }
     }
