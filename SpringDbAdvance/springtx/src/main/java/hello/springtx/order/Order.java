@@ -1,5 +1,6 @@
 package hello.springtx.order;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 

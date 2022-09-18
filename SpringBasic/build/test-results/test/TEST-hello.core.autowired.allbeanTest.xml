@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.autowired.allbeanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-26T07:01:28" hostname="jeong-gyeongsuui-MacBookPro.local" time="0.107">
-  <properties/>
-  <testcase name="findAllBean()" classname="hello.core.autowired.allbeanTest" time="0.107"/>
-  <system-out><![CDATA[policyMap = {fixDiscountPolicy=hello.core.discount.FixDiscountPolicy@7e3d2ebd, rateDiscountPolicy=hello.core.discount.RateDiscountPolicy@2b43f314}
-policies = [hello.core.discount.FixDiscountPolicy@7e3d2ebd, hello.core.discount.RateDiscountPolicy@2b43f314]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

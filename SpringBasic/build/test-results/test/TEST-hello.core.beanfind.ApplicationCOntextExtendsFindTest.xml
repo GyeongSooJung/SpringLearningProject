@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.beanfind.ApplicationCOntextExtendsFindTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-26T07:01:28" hostname="jeong-gyeongsuui-MacBookPro.local" time="0.037">
-  <properties/>
-  <testcase name="부모 타입으로 조회시, 자식이 둘 이상 있으면 중복 오류가 발생한다." classname="hello.core.beanfind.ApplicationCOntextExtendsFindTest" time="0.003"/>
-  <testcase name="부모 타입으로 조회시, 자식이 둘 이상 있으면 빈 이름을 지정하면 된다." classname="hello.core.beanfind.ApplicationCOntextExtendsFindTest" time="0.001"/>
-  <testcase name="부모 타입으로 모두 조회하기" classname="hello.core.beanfind.ApplicationCOntextExtendsFindTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

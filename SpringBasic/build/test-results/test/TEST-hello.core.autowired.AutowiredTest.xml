@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.autowired.AutowiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-26T07:01:28" hostname="jeong-gyeongsuui-MacBookPro.local" time="0.023">
+<testsuite name="hello.core.autowired.AutowiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-15T02:26:15" hostname="jeong-gyeongsuui-MacBookPro.local" time="0.322">
   <properties/>
-  <testcase name="AutowiredOption()" classname="hello.core.autowired.AutowiredTest" time="0.023"/>
-  <system-out><![CDATA[noBean2 = null
+  <testcase name="AutowiredOption()" classname="hello.core.autowired.AutowiredTest" time="0.322"/>
+  <system-out><![CDATA[11:26:15.570 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21d03963
+11:26:15.585 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+11:26:15.640 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+11:26:15.643 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+11:26:15.646 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+11:26:15.647 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+11:26:15.655 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'autowiredTest.TestBean'
+noBean2 = null
 noBean3 = Optional.empty
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
